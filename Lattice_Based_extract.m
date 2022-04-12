@@ -6,7 +6,8 @@ function [BERs,iterate_times] = Lattice_Based_extract(Y,B,Ry_hat_inv,P,threshold
 %                    number of carriers:sourceNum
 %                    pre-initialization:Bc_hatsic
 % output: 1xP vector of BER:BERs; M_ISIC's actual iterating times:iterate_times
-% author: Hao Cheng, haoc678@gmail.com, Jinan University
+% author: Shanxiang Lyu (shanxianglyu@gmail.com, https://sites.google.com/view/shanx)
+%         Hao Cheng, haoc678@gmail.com, Jinan University
 %         Fan Yang, fanyang1124@163.com, Jinan University
 k = 1;
 BERs = zeros(1,P);

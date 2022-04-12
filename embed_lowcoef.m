@@ -1,10 +1,10 @@
 function [Y,Ry_inv,Ry_hat_inv,s] = embed_lowcoef(xm,B,alpha,noise,sourceNum,len)
 % Embed B into host.
-% parameters: input: host:xm; watermark:B; amplitude:alpha; 
+% Parameters: input: host:xm; watermark:B; amplitude:alpha; 
 %                    noise power:noise; number of carriers:sourceNum;
 %                    length of embedded coefficients(from bottom to top):len
-% output: embedded matrix:Y; inverse of Y's autocorrelation matrix:Y; inverse of sample average autocorrelation matrix:Ry_hat_inv
-% author: Hao Cheng, haoc678@gmail.com, Jinan University
+% Output: embedded matrix:Y; inverse of Y's autocorrelation matrix:Y; inverse of sample average autocorrelation matrix:Ry_hat_inv
+% Author: Hao Cheng, haoc678@gmail.com, Jinan University
 %         Fan Yang, fanyang1124@163.com, Jinan University
     [a,b] = size(xm);
     

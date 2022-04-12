@@ -1,8 +1,8 @@
 function v = zigzag(a)
 % Do a zigzag scan on an 8x8 block,only 8x8 will work
-% parameters: input: 8x8 matrix:a
-% output: 1x64 vector v
-% author: Hao Cheng, haoc678@gmail.com, Jinan University
+% Parameters: input: 8x8 matrix:a
+% Output: 1x64 vector v
+% Author: Hao Cheng, haoc678@gmail.com, Jinan University
 %         Fan Yang, fanyang1124@163.com, Jinan University
    [n,m] = size(a);
    v = zeros([1 64]);

@@ -1,12 +1,12 @@
 function [BERs,iterate_times] = M_IGLS(Y,Ry_hat_inv,B,P,threshold,sourceNum,host_height,host_width,Bc_hat)
 % Do P times M_IGLS,compute P bers
-% parameters: input: embedded matrix:Y; prewhitening matrix:Ry_hat_inv;
+% Parameters: input: embedded matrix:Y; prewhitening matrix:Ry_hat_inv;
 %                    origin watermark:B; reinitialization times:P;
 %                    threshold of iterating times:threshold;
 %                    number of carriers:sourceNum
 %                    pre-initialization:Bc_hat
-% output: 1xP vector of BER:BERs; M_IGLS's actual iterating times:iterate_times
-% author: Hao Cheng, haoc678@gmail.com, Jinan University
+% Output: 1xP vector of BER:BERs; M_IGLS's actual iterating times:iterate_times
+% Author: Hao Cheng, haoc678@gmail.com, Jinan University
 %         Fan Yang, fanyang1124@163.com, Jinan University
     k = 1;
     BERs = zeros(1,P);

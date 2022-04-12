@@ -1,5 +1,5 @@
-% main function:Comparing the performance of M_ISIC and other extracting algrithms.
-% author: Hao Cheng, haoc678@gmail.com, Jinan University
+% Main function:Comparing the performance of M_ISIC and other extracting algrithms.
+% Author: Hao Cheng, haoc678@gmail.com, Jinan University
 %         Fan Yang, fanyang1124@163.com, Jinan University
 
 clc;

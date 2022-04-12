@@ -1,9 +1,9 @@
 function [xm,Rx,dc,host_height,host_width] = DctHost(host)
 % Do DCT transform on the host iamge
-% parameters: input:host iamge path:host
-% output: DCT coefficients:xm; Autocorrelation matrix of host image:Rx;
+% Parameters: input:host iamge path:host
+% Output: DCT coefficients:xm; Autocorrelation matrix of host image:Rx;
 %         DC component:dc; size of host image:host_height,host_width
-% author: Hao Cheng, haoc678@gmail.com, Jinan University
+% Author: Hao Cheng, haoc678@gmail.com, Jinan University
 %         Fan Yang, fanyang1124@163.com, Jinan University
     host = imread(host);
     host = im2double(host)*255;

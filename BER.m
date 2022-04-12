@@ -1,10 +1,10 @@
 function [ber,correctWatermark] = BER(B,extractedWatermark,sourceNum,host_height,host_width)
-% compute BER of extractedWatermark using greedy method, and then correct its order and sign(since blind extract algorithm causes sign-ambiguity problem)
-% parameters: input: orgin watermark:B; extracted watermark:extractedWatermark
+% Compute BER of extractedWatermark using greedy method, and then correct its order and sign(since blind extract algorithm causes sign-ambiguity problem)
+% Parameters: input: orgin watermark:B; extracted watermark:extractedWatermark
 %                    number of carriers:sourceNum
-% output: bit error rate of extractedWatermark:ber; 
+% Output: bit error rate of extractedWatermark:ber; 
 %         watermark which order and sign are corrected:correctWatermark
-% author: Hao Cheng, haoc678@gmail.com, Jinan University
+% Author: Hao Cheng, haoc678@gmail.com, Jinan University
 %         Fan Yang, fanyang1124@163.com, Jinan University
     correctWatermark = zeros(sourceNum,host_height*host_width);
     for i = 1:sourceNum
