@@ -9,5 +9,5 @@ Compare different extracting algorithms including:
 4. M_IGLS(M. Li, et al. “Extracting spread-spectrum hidden data from digital media”)
 5. M_ISIC(Proposed method)
 
-This program simulates a data hiding scenario. Firstly,a random watermark $B$ will be embeded in the host.After that $B'$ will be extracted using different algorithm.Then calculate BER of $B'$.
+This program simulates a data hiding scenario. Firstly,a random watermark <img src="http://latex.codecogs.com/gif.latex?B" /> will be embeded in the host.After that <img src="http://latex.codecogs.com/gif.latex?B'" /> will be extracted using different algorithm.Then calculate BER of <img src="http://latex.codecogs.com/gif.latex?B'" />.
 The differences between the algorithms mentioned above are mainly shown by BER in different image distortion.  
