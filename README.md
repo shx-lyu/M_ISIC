@@ -1,5 +1,5 @@
 # M-ISIC
-A proposed blind extracting algorithm of hidden data embedded by the multi-carrier spread-spectrum scheme.
+A proposed blind extracting algorithm of hidden data embedded by the multi-carrier spread-spectrum scheme. See Details in  "Lattice-Aided Extraction of Spread-Spectrum Hidden Data".
 
 # Main function
 Compare different extracting algorithms including:
