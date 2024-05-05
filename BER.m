@@ -4,8 +4,6 @@ function [ber,correctWatermark] = BER(B,extractedWatermark,sourceNum,host_height
 %                    number of carriers:sourceNum
 % Output: bit error rate of extractedWatermark:ber; 
 %         watermark which order and sign are corrected:correctWatermark
-% Author: Hao Cheng, haoc678@gmail.com, Jinan University
-%         Fan Yang, fanyang1124@163.com, Jinan University
     correctWatermark = zeros(sourceNum,host_height*host_width);
     for i = 1:sourceNum
         tmp = extractedWatermark(i,:);

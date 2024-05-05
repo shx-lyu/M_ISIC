@@ -6,8 +6,6 @@ function [BERs,iterate_times] = M_IGLS(Y,Ry_hat_inv,B,P,threshold,sourceNum,host
 %                    number of carriers:sourceNum
 %                    pre-initialization:Bc_hat
 % Output: 1xP vector of BER:BERs; M_IGLS's actual iterating times:iterate_times
-% Author: Hao Cheng, haoc678@gmail.com, Jinan University
-%         Fan Yang, fanyang1124@163.com, Jinan University
     k = 1;
     BERs = zeros(1,P);
     iterate_times = zeros(1,P);
