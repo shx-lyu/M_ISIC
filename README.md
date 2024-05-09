@@ -1,7 +1,9 @@
 # Lattice-Aided Extraction of Spread-Spectrum Hidden Data
 
-**Authors:** Fan Yang, Shanxiang Lyu, Hao Cheng, Jinming Wen, Hao Chen
+**Authors:** Fan Yang, Hao Cheng, Shanxiang Lyu, Jinming Wen, Hao Chen
+
 *College of Cyber Security/College of Information Science and Technology, Jinan University, Guangzhou 510632, China*
+
 *State Key Laboratory of Cryptology, P. O. Box 5159, Beijing, 100878, China*
 
 ## Abstract
@@ -18,3 +20,6 @@ The MATLAB codes compare different extracting algorithms including:
 
 The main file of blind extraction is: `blind_extra_main.m`.
 The main file of non-blind extraction is: `non_blind_extra_main.m`.
+
+## Citation
+Fan Yang, Hao Cheng, Shanxiang Lyu, Jinming Wen, Hao Chen: Lattice-Aided Extraction of Spread-Spectrum Hidden Data. IEEE Transactions on Information Forensics and Security, to appear, (2024)
