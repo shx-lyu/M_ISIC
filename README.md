@@ -22,4 +22,4 @@ The main file of blind extraction is: `blind_extra_main.m`.
 The main file of non-blind extraction is: `non_blind_extra_main.m`.
 
 ## Citation
-Fan Yang, Hao Cheng, Shanxiang Lyu, Jinming Wen, Hao Chen: Lattice-Aided Extraction of Spread-Spectrum Hidden Data. IEEE Transactions on Information Forensics and Security, to appear, (2024)
+Fan Yang, Hao Cheng, Shanxiang Lyu, Jinming Wen, Hao Chen: Lattice-Aided Extraction of Spread-Spectrum Hidden Data. IEEE Trans. Inf. Forensics Secur. 19: 5684-5695 (2024)
